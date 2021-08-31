@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Maxon Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/560023352c.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu();"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">BUSINESS</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu();" ></i>
+      </nav>
+
+    <div class="text-box">
+      <h1>Plant Engineering Company</h1>
+      <p>we are the best</p>
+      <a href=""class="hero-btn">Visit Us To know More</a>
+
+    </div>
+
+    </section>
+
+    <!-----------Course------------>
+    <section class="Business">
+      <h1>Business We Offer</h1>
+      <p>designing pipe, plant</p>
+
+      
+
+    </section>
+
+
+
+
+    <!---------Toggle Menu---------->
+    <script>
+      var navLinks=document.getElementById("navLinks")
+
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+  </body>
+</html>
