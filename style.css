@@ -389,7 +389,7 @@ p a{
 }
 
 .layer:hover{
-  background: rgba(0,0,226,0.7);
+  background: rgba(0,0,200,0.7);
 }
 
 .layer h3{
@@ -528,6 +528,10 @@ p a{
 .Service{
   width: 70%;
 }
+.Service img{
+  width: 500px;
+}
+
 table{
   width: 100%;
   border-top: 3px solid #444444;
@@ -591,8 +595,8 @@ th, td{
 
 .about-col img{
   display: block;
-  width: 400px;
-  height: 600px;
+  width: 65%;
+  height: auto;
   margin: 0px auto;
 }
 
@@ -618,6 +622,14 @@ th, td{
 .blue-btn:hover{
   color: #fff;
 }
+/*------------organization page----------*/
+.organization img{
+  display: block;
+  border-radius: 10px;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+
 
 /*--------------modularization-------------*/
 .module-col{
@@ -642,13 +654,17 @@ th, td{
 
 
 /*----------------vision----------------*/
-
+.vision-col{
+  padding: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .vision-col h2{
-  padding : 40px 0;
+  padding : 30px 0;
   text-align : center;
   color: #001086;
   margin: 60px auto 80px;
-  height: 70px;
+  height: 45px;
   width: 80%;
   max-width: 700px;
   background: #fff;
@@ -658,8 +674,8 @@ th, td{
 
 .vision-col h2::after{
   content: '';
-  height: 100px;
-  width: 200px;
+  height: 80px;
+  width: 150px;
   background-color: #8ba2f7;
   position: absolute;
   top: -10px;
@@ -669,8 +685,8 @@ th, td{
 
 .vision-col h2::before{
   content: '';
-  height: 100px;
-  width: 200px;
+  height: 80px;
+  width: 150px;
   background-color: #8ba2f7;
   position: absolute;
   bottom: -10px;
@@ -680,30 +696,43 @@ th, td{
 
 .vision-col img{
   margin: 0px auto;
-  width: 80%;
+  width: 70%;
   display : block;
+
 }
 
 /*-------------civil & structure---------------*/
 .civil{
-  width: 90%;
-  margin: 70px;
-  margin-left: 100px;
+  width: 85%;
+  margin: 120px;
 }
+
+.civil h1{
+  padding: 20px;
+}
+
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img{
+  max-width: 98%;
+  padding: 5px 0px;
+}
+
 
 .civil-col{
-  padding: 50px;
+  margin: auto;
+  width: 50%;
+  padding: 70px;
 }
 
-.civil-col h3{
-  font-size: 30px;
-  margin-bottom: 12px;
+.col-2 p{
+  line-height: 25px;
 }
 
-.civil-col img{
-  width: 500px;
-  height: 450px;
-}
+
 
 /*----------------contact us page--------------*/
 
